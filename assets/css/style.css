@@ -1,7 +1,41 @@
-/* google fonts import */
+/* google fonts import 
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@300&family=Roboto&display=swap');
 
-p {
+/* generic styling for titles and text content */
 
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+h1,
+h2 {
+    font-family: 'Roboto', sans-serif;
+    text-transform:uppercase;
+}
+
+#logo{
+    float: left;
+    background-color: #151515;
+    color: #a63d40;
+}
+/* navigation styling */
+#menu{
+    float: right;
+}
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin: 2px 30px 5px 2px;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+li :hover {
+    color: rgb(245, 8, 213);
+    text-decoration: none;
 }
