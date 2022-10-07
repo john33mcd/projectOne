@@ -34,8 +34,37 @@ h2 {
     letter-spacing: 2px;
     font-size: 20px;
 }
-
-li :hover {
-    color: rgb(245, 8, 213);
+#menu li a {
+    color: #151515;
+}
+/* navigation hover effect */
+#menu li :hover {
+    color: #E9B872;
     text-decoration: none;
 }
+/* main image and introductory title */
+#heroImage{
+    height: 75vh;
+    background-color: #a63d40;
+}
+
+
+
+
+
+/* all details pertaining to footer elements (social media) */
+footer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:center;
+    height: 100px;
+    background-color: #151515;
+    min-width: 100%;
+    background-repeat: no-repeat;
+}
+
+i{
+    color:#fff4fd;
+    width: 50px;
+    font-size: 40px;
+    }
