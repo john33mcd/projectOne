@@ -56,9 +56,9 @@ header {
 #menu li a {
     color: white;
 }
-
-.active li a{
-    color: #a63d40;
+/* sets active nav element to half shade */
+.active{
+    opacity: 0.5;
 }
 
 /* navigation hover effect */
