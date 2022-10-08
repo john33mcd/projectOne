@@ -11,17 +11,23 @@ font-family: 'Roboto', sans-serif;
 p {
     font-family: 'Lato', sans-serif;
 }
-
+/* style for header elements */
 h1,
 h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; 
     text-transform:uppercase;
+    font-style: italic;
 }
-
+header{
+    height: 10vh;
+    background-color: black;
+}
 #logo{
     float: left;
-    background-color: #151515;
-    color: #a63d40;
+    color: white;
+    margin: 20px 20px;
+    font-size: 48px;
+
 }
 /* navigation styling */
 #menu{
@@ -35,11 +41,11 @@ h2 {
     font-size: 20px;
 }
 #menu li a {
-    color: #151515;
+    color: white;
 }
 /* navigation hover effect */
 #menu li :hover {
-    color: #E9B872;
+    color: #a63d40;
     text-decoration: none;
 }
 /* main image and introductory title */
@@ -50,9 +56,13 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-#pageTitle{
+/* brief description of what to expect */
+#pageDescription{
     float: left;
+    font-family:'Roboto', sans-serif;
+    margin: 15% auto;
+    font-size: 48px;
+    color: aliceblue;
 }
 
 
