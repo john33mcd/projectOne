@@ -57,6 +57,10 @@ header {
     color: white;
 }
 
+.active li a{
+    color: #a63d40;
+}
+
 /* navigation hover effect */
 #menu li :hover {
     color: #a63d40;
