@@ -100,7 +100,19 @@ header {
     width: 50em;
 }
 
+/* label and form editing */
 
+label{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+
+input {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+}
 
 
 /* all details pertaining to footer elements (social media) */
@@ -122,4 +134,8 @@ footer i {
 
 footer a {
     margin: 25px 20px;
+}
+
+footer a :hover{
+opacity: 0.5;
 }
