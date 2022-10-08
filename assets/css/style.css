@@ -86,7 +86,7 @@ header {
 }
 /* middle info section */
 
-#middle {
+#middle{
     height: 30vh;
 }
 /* middle info h2 element */
@@ -100,7 +100,21 @@ header {
     width: 50em;
 }
 
+#midLeft{
+    float: left;
+    margin: 33px;
+}
+
+#midRight{
+    float: right;
+    margin: 33px;
+}
+
 /* label and form editing */
+
+#resForm{
+    height:30vh;
+}
 
 label{
     display: inline-block;
