@@ -46,8 +46,14 @@ h2 {
 #heroImage{
     height: 75vh;
     background-color: #a63d40;
+    background-image: url(../images/spaceInvader.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+#pageTitle{
+    float: left;
+}
 
 
 
