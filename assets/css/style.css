@@ -6,21 +6,33 @@ font-family: 'Roboto', sans-serif;
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@300&family=Roboto&display=swap');
 
+/* added below code from stack overflow in order to remove white space surrounding index file */
+
+html, body {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+
 /* generic styling for titles and text content */
 
 p {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Fira Sans', serif;
+    font-style: oblique;
+    font-size: 20px;
 }
 
 /* style for header text elements */
 h1,
-h2 {
+h2,
+h3 {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     font-style: italic;
 }
+
 /* use class to center areas of text */
-.textCenter{
+.textCenter {
     text-align: center;
 }
 
@@ -56,8 +68,9 @@ header {
 #menu li a {
     color: white;
 }
+
 /* sets active nav element to half shade */
-.active{
+.active {
     opacity: 0.5;
 }
 
@@ -84,43 +97,52 @@ header {
     font-size: 48px;
     color: aliceblue;
 }
+
 /* middle info section */
 
-#middle{
+
+#middle {
     height: 30vh;
 }
+
 /* middle info h2 element */
-#middle h2{
-    margin: 15px auto;
-}
-/* middle info p element */
-
-#middle p{
-    margin: 0 auto 0;
-    width: 50em;
+#middle h2 {
+    height: 5vh;
+    margin: 0 auto;
+    color: #fff4fd;
+    background-color: #151515;
 }
 
-#midLeft{
+/* middle info spacing */
+
+#midLeft {
     float: left;
     margin: 33px;
+    background-color: #151515;
+    text-align:center;
+    color: white;
 }
 
-#midRight{
+#midRight {
     float: right;
     margin: 33px;
+    background-color: aqua;
+    background-color: #151515;
+    text-align:center;
+    color: white;
 }
 
-.boxShadow{
+.boxShadow {
     box-shadow: 0 20px 20px #a63d40;
 }
 
 /* label and form editing */
 
-#resForm{
-    height:30vh;
+#resForm {
+    height: 30vh;
 }
 
-label{
+label {
     display: inline-block;
     width: 100px;
     text-align: right;
@@ -154,6 +176,6 @@ footer a {
     margin: 25px 20px;
 }
 
-footer a :hover{
-opacity: 0.5;
+footer a :hover {
+    opacity: 0.5;
 }
