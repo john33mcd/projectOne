@@ -117,7 +117,8 @@ header {
 
 #midLeft {
     float: left;
-    margin: 33px;
+    margin: 1% 2em 1%;
+    width: 33%;
     background-color: #151515;
     text-align:center;
     color: white;
@@ -125,11 +126,19 @@ header {
 
 #midRight {
     float: right;
-    margin: 33px;
+    margin: 1% 2em 1%;
+    width: 33%;
     background-color: aqua;
     background-color: #151515;
     text-align:center;
     color: white;
+}
+
+#middle i{
+    color: #fff4fd;
+    width: 25px;
+    font-size: 25px;
+    margin: 0px 0px 0px 50px;
 }
 
 .boxShadow {
