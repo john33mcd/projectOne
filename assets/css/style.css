@@ -11,6 +11,7 @@ font-family: 'Roboto', sans-serif;
 html, body {
     margin: 0 auto;
     padding: 0 auto;
+    background-color: #E9b872;
 }
 
 
@@ -48,7 +49,7 @@ h3 {
 
 header {
     height: 10vh;
-    background-color: black;
+    background-color: #151515;
 }
 
 /* navigation styling */
@@ -80,7 +81,7 @@ header {
     text-decoration: none;
 }
 
-/* main image and introductory title */
+/* main image and introductory title*/
 #heroImage {
     height: 75vh;
     background-color: #a63d40;
@@ -110,7 +111,7 @@ header {
     height: 5vh;
     margin: 0 auto;
     color: #fff4fd;
-    background-color: #151515;
+    background-color: #a63d40;
 }
 
 /* middle info spacing */
@@ -141,10 +142,6 @@ header {
     margin: 0px 0px 0px 50px;
 }
 
-.boxShadow {
-    box-shadow: 0 20px 20px #a63d40;
-}
-
 /* label and form editing */
 
 #resForm {
@@ -164,6 +161,30 @@ input {
 }
 
 
+/* 
+gallery styling as below 
+gallery header text 
+*/
+#galleryHeader{
+    height: 5vh;
+    clear: both;
+    margin: 0 auto;
+    color: #fff4fd;
+    background-color: #a63d40;
+}
+
+/* galleryPhotos and sizing */
+#gallery{
+    clear: both;
+    line-height: 1em;
+    column-count: 2;
+    column-gap: 5px;
+}
+
+#gallery img{
+    width: 100%;
+}
+
 /* all details pertaining to footer elements (social media) */
 footer {
     display: flex;
@@ -172,7 +193,6 @@ footer {
     height: 100px;
     background-color: #151515;
     min-width: 100%;
-    background-repeat: no-repeat;
 }
 
 footer i {
