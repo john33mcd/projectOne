@@ -176,10 +176,15 @@ label {
 
 #resForm input {
     width: 20%;
+    border-radius: 2%;
+    padding: 1%;
 }
 
 .buttonForm {
    margin-left: 11%;
+   padding: 2%;
+   background-color: #151515;
+   color: white;
 }
 
 /* 
@@ -231,5 +236,3 @@ footer a {
 footer a :hover {
     opacity: 0.5;
 }
-
-/* reservation page */
