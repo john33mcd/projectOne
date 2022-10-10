@@ -8,10 +8,10 @@ font-family: 'Roboto', sans-serif;
 
 /* added below code from stack overflow in order to remove white space surrounding index file */
 
-html, body {
+html,
+body {
     margin: 0 auto;
     padding: 0 auto;
-    /* background-color: #E9b872; */
     background-color: #151515;
 }
 
@@ -97,11 +97,10 @@ header {
     font-family: 'Roboto', sans-serif;
     margin: 15% auto;
     font-size: 48px;
-    color: aliceblue;
+    color: white;
 }
 
 /* middle info section */
-
 
 #middle {
     height: 30vh;
@@ -122,7 +121,7 @@ header {
     margin: 1% 2em 1%;
     width: 33%;
     /* background-color: #151515; */
-    text-align:center;
+    text-align: center;
     color: white;
 }
 
@@ -131,46 +130,63 @@ header {
     margin: 1% 2em 1%;
     width: 33%;
     /* background-color: #151515; */
-    text-align:center;
+    text-align: center;
     color: white;
 }
 
-#middle i{
+#middle i {
     color: #fff4fd;
     width: 25px;
     font-size: 25px;
     margin: 0px 0px 0px 50px;
 }
 
-#belowDesc{
+#belowDesc {
     height: 70vh;
     background-color: #a63d40;
 }
 
 /* label and form editing */
 
-#resForm {
-    height: 30vh;
+#formEdit{
+    margin: 10% 30% 5%;
+    width: 100%;
+}
+
+#resForm h2 {
+    color: white;
 }
 
 label {
-    display: inline-block;
     width: 100px;
+    display: inline-block;
     text-align: right;
+    color: white;
+    font-size: 20px;
 }
 
-input {
-    display: inline-block;
-    width: 100px;
-    text-align: left;
+#resForm {
+    background-color: #a63d40;
+    background-image: url(../images/joystick.jpg);
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 50%;
+    margin: 30px 25%;
 }
 
+#resForm input {
+    width: 20%;
+}
+
+.buttonForm {
+   margin-left: 11%;
+}
 
 /* 
 gallery styling as below 
 gallery header text 
 */
-#galleryHeader{
+#galleryHeader {
     height: 5vh;
     clear: both;
     margin: 0 auto;
@@ -179,15 +195,17 @@ gallery header text
 }
 
 /* galleryPhotos and sizing */
-#gallery{
+#gallery {
     clear: both;
     line-height: 1em;
     column-count: 2;
     column-gap: 5px;
 }
 
-#gallery img{
+#gallery img {
     width: 100%;
+    min-height: 400px;
+    max-height: 400px;
 }
 
 /* all details pertaining to footer elements (social media) */
@@ -215,19 +233,3 @@ footer a :hover {
 }
 
 /* reservation page */
-
-#resSection{
-    background-color: yellow;
-
-}
-#resForm{
-    background-color: red;
-    margin: 0 auto;
-    padding: 20 auto;
-}
-
-#resForm input{
-margin: 10px;
-padding: 10px;
-width: 20%;
-}

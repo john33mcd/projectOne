@@ -20,23 +20,27 @@
             <ul id="menu">
                 <li><a href="index.html" aria-label="returns user to landing page">Home</a></li>
                 <li><a href="menu.html" aria-label="brings user to menu">Menu</a></li>
-                <li><a href="reservation.html" aria-label="brings user to form to make reservation" class="active">Make a reservation</a></li>
+                <li><a href="reservation.html" aria-label="brings user to form to make reservation" class="active">Make
+                        a reservation</a></li>
                 <li><a href="gallery.html" aria-label="brings user to gallery">Gallery</a></li>
             </ul>
         </nav>
     </header>
-    <!-- reservation form -->
-    <section id="resSection">
+        <!-- reservation form -->
+    <section>
         <fieldset id="resForm">
-            <form>
+            <legend><h2>Please make your reservation below</h2></legend>
+            <form id="formEdit">
                 <label for="fname">First name: </label>
-                <input type="text" id="fname" name="fname" placeholder="First name" required></br>
-                <label for="lname">last name: </label>
-                <input type="text" id="lname" name="lname" placeholder="Last name" required></br>
+                <input type="text" id="fname" name="fname" placeholder="First name" required></br></br>
+                <label for="lname">Last name: </label>
+                <input type="text" id="lname" name="lname" placeholder="Last name" required></br></br>
                 <label for="partySize">How many guests?: </label>
-                <input type="number" id="partySize" name="partySize" placeholder="how many people ?" max="20" min="1" required></br>
-                <label for="dateOfVisit">Date of Visit: </label>
-                <input type="date" id="dateOfVisit" name="dateOfVisit">
+                <input type="number" id="partySize" name="partySize" placeholder="how many people ?" max="20" min="1"
+                    required></br></br>
+                <label for="dateOfVisit">Date of Reservation: </label>
+                <input type="date" id="dateOfVisit" name="dateOfVisit"></br></br></br>
+                <input type="submit" type="submit" class="buttonForm">
             </form>
         </fieldset>
     </section>
