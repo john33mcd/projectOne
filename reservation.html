@@ -26,15 +26,17 @@
         </nav>
     </header>
     <!-- reservation form -->
-    <section id="resForm">
-        <fieldset>
+    <section id="resSection">
+        <fieldset id="resForm">
             <form>
-                <label for="fname: ">First name: </label>
+                <label for="fname">First name: </label>
                 <input type="text" id="fname" name="fname" placeholder="First name" required></br>
-                <label for="lname: ">last name: </label>
+                <label for="lname">last name: </label>
                 <input type="text" id="lname" name="lname" placeholder="Last name" required></br>
-                <label for="partySize: ">How many guests?: </label>
+                <label for="partySize">How many guests?: </label>
                 <input type="number" id="partySize" name="partySize" placeholder="how many people ?" max="20" min="1" required></br>
+                <label for="dateOfVisit">Date of Visit: </label>
+                <input type="date" id="dateOfVisit" name="dateOfVisit">
             </form>
         </fieldset>
     </section>
