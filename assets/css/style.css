@@ -153,8 +153,9 @@ header {
 
 #belowDesc section{
     display: inline-block;
-    margin: 2% 2% 2% 1%;
-    width: 30%;
+    vertical-align: top;
+    margin: 1%;
+    width: 31%;
     height: 40vh;
     border-radius: 2em;
     color: white;
