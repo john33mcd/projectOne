@@ -197,8 +197,8 @@ menu title first.
 
 #menuBottom p {
     font-style: normal;
-    margin: 0 3em 0 13em;
-    text-transform: capitalize;
+    margin: 0 3em 0 11em;
+    text-transform:uppercase;
     font-size: x-large;
 }
 
