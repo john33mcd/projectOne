@@ -104,14 +104,16 @@ header {
 
 #middle {
     height: 30vh;
+    margin: 20px 20px;
 }
+
 
 /* middle info h2 element */
 #middle h2 {
-    height: 5vh;
-    margin: 0 auto;
     color: #fff4fd;
     background-color: #a63d40;
+    width: 40%;
+    margin: 0 auto;
 }
 
 /* middle info spacing */
@@ -192,11 +194,13 @@ gallery styling as below
 gallery header text 
 */
 #galleryHeader {
-    height: 5vh;
     clear: both;
-    margin: 0 auto;
     color: #fff4fd;
     background-color: #a63d40;
+}
+
+#galleryHeader h2{
+    margin: 20px;
 }
 
 /* galleryPhotos and sizing */
