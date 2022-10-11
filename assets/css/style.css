@@ -147,12 +147,23 @@ header {
     height: 50vh;
     background-color: #a63d40;
     background-image: url(../images/sample1.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
 #belowDesc section{
-    width: 33%;
+    display: inline-block;
+    margin: 2% 2% 2% 1%;
+    width: 30%;
+    height: 40vh;
+    border-radius: 2em;
     color: white;
+    background-color: #a63d40;
+    opacity: 0.8;
+}
+
+#belowDescTitle{
+    color: #fff4fd;
     background-color: #a63d40;
 }
 
