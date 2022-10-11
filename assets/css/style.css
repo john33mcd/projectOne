@@ -141,8 +141,18 @@ header {
     margin: 0px 0px 0px 50px;
 }
 
+/* second half of landing page*/
+
 #belowDesc {
-    height: 70vh;
+    height: 50vh;
+    background-color: #a63d40;
+    background-image: url(../images/sample1.jpg);
+    background-size: cover;
+}
+
+#belowDesc section{
+    width: 33%;
+    color: white;
     background-color: #a63d40;
 }
 
