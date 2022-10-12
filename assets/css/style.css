@@ -333,6 +333,7 @@ footer a :hover {
 
     /* media query for main page */
 
+
     #heroImage {
         background-size: cover;
         background-position: center;
@@ -427,4 +428,27 @@ display: inline-block;
         padding: 1em 1em;
     }
 
+}
+
+@media screen and (max-width: 400px) {
+
+header{
+    display: inline-table;
+}
+
+#heroImage{
+    height: 40vh;
+}
+
+header h1{
+    float:right;
+}
+
+.events h3{
+font-size: 18px;
+}
+
+.events p{
+   font-size: 15px;
+}
 }
