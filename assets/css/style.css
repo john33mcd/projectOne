@@ -318,7 +318,7 @@ footer a :hover {
 }
 
 /* Media queries */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1242px) {
 
     /* media query for nav bar */
 
@@ -403,19 +403,20 @@ footer a :hover {
 
     #menuMain {
         width: 90%;
-        margin: 1% 5%;
-    }
-
-    #menuRight p {
-        display: inline-block;
-    }
-
-    #menuLeft p {
-        display: inline-block;
+        margin: 1%;
     }
 
     #menuBottom p {
         display: none;
+    }
+
+    #menuRight{
+        position: absolute;
+        float: right;
+    }
+
+    #menuLeft{
+        display: inline-block;
     }
 
     /* gallery media query, working */
@@ -465,9 +466,18 @@ footer a :hover {
     }
 
     #formEdit input {
-        width: 50%;
+        width: 60%;
     }
+}
 
-
+/* added to fix pricing line up */
+@media screen and (max-width: 500px) {
+    #menuMain {
+        width: 90%;
+        margin: 5%;
+    }
+    #menuLeft{
+        margin: 1%;
+    }
 
 }
