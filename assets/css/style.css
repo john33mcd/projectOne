@@ -151,7 +151,7 @@ header {
     background-size: cover;
 }
 
-#belowDesc section{
+#belowDesc section {
     display: inline-block;
     vertical-align: top;
     margin: 1%;
@@ -163,7 +163,7 @@ header {
     opacity: 0.8;
 }
 
-#belowDescTitle{
+#belowDescTitle {
     color: #fff4fd;
     background-color: #a63d40;
 }
@@ -220,7 +220,7 @@ menu title first.
 #menuBottom p {
     font-style: normal;
     margin: 0 3em 0 11em;
-    text-transform:uppercase;
+    text-transform: uppercase;
     font-size: x-large;
 }
 
@@ -318,47 +318,97 @@ footer a :hover {
 }
 
 /* Media queries */
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px) {
 
-/* media query for first page */
+    /* media query for nav bar */
 
-#logo{
-    margin: 5% 20% 1%; 
+    #logo {
+        margin: 7% 40% 1%;
+    }
+
+    #nav {
+        float: left;
+        margin: 0 auto;
+    }
+
+    /* media query for main page */
+
+    #heroImage {
+        background-size: cover;
+        background-position: center;
+    }
+
+    #pageDescription {
+        margin: 3em 3em 3em;
+    }
+
+    #middle p {
+        font-size: 17px;
+    }
+
+    #midLeft {
+        display: inline-block;
+        column-count: 1;
+        margin: 2px;
+        padding: 2px;
+        padding: 1em 1em;
+    }
+
+    #midRight {
+        display: inline-block;
+        column-count: 1;
+        margin: 2px;
+        padding: 2px;
+        padding: 1em 1em;
+    }
+
+    #belowDesc {
+        display: inline-block;
+        width: 100%;
+    }
+
+    #belowDescTitle h2 {
+        clear: both;
+    }
+
+    .events{
+        font-size: 10px;
+    }
+
+    .events h{
+        font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    /* menu media query, in progress */
+
+    #menuMain{
+        width: 90%;
+        margin: 1% 5%;
+    }
+
+    #menuRight p{
+        display: inline-block;
+    }
+    #menuLeft p{
+display: inline-block;
+    }
+
+    #menuBottom p{
+        display: none;
+    }
+
+
+
+
+
+    /* gallery media query, working */
+    #gallery {
+        display: inline-block;
+        column-count: 1;
+        margin: 2px;
+        padding: 1em 1em;
+    }
+
 }
-
-#nav{
-    float: left;
-}
-
-#menu li{
-float: left;
-display: block;
-margin: 1em;
-padding: 1em 1em;
-}
-
-#menu li a{
-    color: #151515;
-}
-
-#heroImage{
-    background-size: cover;
-    background-position: center;
-}
-
-#pageDescription{
-    color: #151515;
-}
-
-
-
-#gallery{
-    display: inline-block;
-    column-count: 1;
-    margin: 0 auto;
-    width: 100%;
-    clear: both;
-}
-
-}
-    
