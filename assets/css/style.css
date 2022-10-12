@@ -318,9 +318,9 @@ footer a :hover {
 }
 
 /* Media queries */
-@media screen and (max-width: 912px){
+@media screen and (max-width: 1200px){
 
-
+/* media query for first page */
 
 #logo{
     margin: 5% 20% 1%; 
@@ -349,5 +349,16 @@ padding: 1em 1em;
 #pageDescription{
     color: #151515;
 }
+
+
+
+#gallery{
+    display: inline-block;
+    column-count: 1;
+    margin: 0 auto;
+    width: 100%;
+    clear: both;
+}
+
 }
     
