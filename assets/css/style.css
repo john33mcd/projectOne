@@ -64,7 +64,7 @@ header {
     list-style-type: none;
     margin: 2px 30px 5px 2px;
     letter-spacing: 2px;
-    font-size: 20px;
+    font-size: 1.4em;
 }
 
 #menu li a {
@@ -316,3 +316,38 @@ footer a {
 footer a :hover {
     opacity: 0.5;
 }
+
+/* Media queries */
+@media screen and (max-width: 912px){
+
+
+
+#logo{
+    margin: 5% 20% 1%; 
+}
+
+#nav{
+    float: left;
+}
+
+#menu li{
+float: left;
+display: block;
+margin: 1em;
+padding: 1em 1em;
+}
+
+#menu li a{
+    color: #151515;
+}
+
+#heroImage{
+    background-size: cover;
+    background-position: center;
+}
+
+#pageDescription{
+    color: #151515;
+}
+}
+    
