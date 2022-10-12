@@ -338,6 +338,10 @@ footer a :hover {
         background-position: center;
     }
 
+    #heroImage h1{
+        display: none;
+    }
+
     #pageDescription {
         margin: 3em 3em 3em;
     }
@@ -353,6 +357,13 @@ footer a :hover {
         padding: 2px;
         padding: 1em 1em;
     }
+    #midLeft i{
+        display: none;
+    }
+
+    #midRight i{
+        display: none;
+    }
 
     #midRight {
         display: inline-block;
@@ -367,12 +378,17 @@ footer a :hover {
         width: 100%;
     }
 
+    #belowDesc section{
+        width: 30%;
+        margin: 1% 1% 1% 1%;
+    }
+
     #belowDescTitle h2 {
         clear: both;
     }
 
     .events{
-        font-size: 10px;
+        font-size: 7px;
     }
 
     .events h{
