@@ -339,7 +339,7 @@ footer a :hover {
         background-position: center;
     }
 
-    #heroImage h1{
+    #heroImage h1 {
         display: none;
     }
 
@@ -358,11 +358,12 @@ footer a :hover {
         padding: 2px;
         padding: 1em 1em;
     }
-    #midLeft i{
+
+    #midLeft i {
         display: none;
     }
 
-    #midRight i{
+    #midRight i {
         display: none;
     }
 
@@ -379,7 +380,7 @@ footer a :hover {
         width: 100%;
     }
 
-    #belowDesc section{
+    #belowDesc section {
         width: 30%;
         margin: 1% 1% 1% 1%;
     }
@@ -388,11 +389,11 @@ footer a :hover {
         clear: both;
     }
 
-    .events{
+    .events {
         font-size: 7px;
     }
 
-    .events h{
+    .events h {
         font-family: 'Roboto', sans-serif;
         text-transform: uppercase;
         font-style: italic;
@@ -400,25 +401,22 @@ footer a :hover {
 
     /* menu media query, in progress */
 
-    #menuMain{
+    #menuMain {
         width: 90%;
         margin: 1% 5%;
     }
 
-    #menuRight p{
+    #menuRight p {
         display: inline-block;
     }
-    #menuLeft p{
-display: inline-block;
+
+    #menuLeft p {
+        display: inline-block;
     }
 
-    #menuBottom p{
+    #menuBottom p {
         display: none;
     }
-
-
-
-
 
     /* gallery media query, working */
     #gallery {
@@ -430,25 +428,46 @@ display: inline-block;
 
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 869px) {
 
-header{
-    display: inline-table;
-}
+    header {
+        display: inline-table;
+    }
 
-header h1{
-    float:left;
-}
+    #logo {
+        float: right;
+    }
 
-#heroImage{
-    height: 40vh;
-}
+    #heroImage {
+        height: 40vh;
+    }
 
-.events h3{
-font-size: 16px;
-}
+    .events h3 {
+        font-size: 16px;
+    }
 
-.events p{
-   font-size: 12px;
-}
+    .events p {
+        font-size: 12px;
+    }
+
+    /* reservation working*/
+
+    #resForm {
+        display: inline-block;
+        background-position: center;
+    }
+
+    #formEdit {
+        display: inline-block;
+        column-count: 1;
+        margin: 2px;
+        padding: 1em 1em;
+    }
+
+    #formEdit input {
+        width: 50%;
+    }
+
+
+
 }
