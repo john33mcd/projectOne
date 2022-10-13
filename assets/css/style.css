@@ -484,6 +484,15 @@ footer a :hover {
         margin: 55px 10px;
         float: right;
     }
+
+    #resForm {
+        margin: 10px 50px 10px 50px;
+    }
+
+    legend {
+        float: left;
+    }
+
 }
 
 /* galaxy fold */
