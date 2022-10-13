@@ -207,7 +207,7 @@ menu title first.
 /* right hand side of the menu */
 
 #menuRight {
-    margin: 4em;
+    margin: 7% 0 0 0;
     display: inline-block;
     width: 20%;
 }
@@ -225,12 +225,10 @@ menu title first.
 }
 
 /* label and form editing */
-
 #formEdit {
     margin: 10% 30% 5%;
     width: 100%;
 }
-
 
 #resForm h2 {
     color: white;
@@ -319,21 +317,18 @@ footer a :hover {
 }
 
 /* Media queries */
-@media screen and (max-width: 1242px) {
+@media screen and (max-width: 1400px) {
 
     /* media query for nav bar */
-
-    #logo {
-        margin: 7% 40% 1%;
-    }
-
     #nav {
         float: left;
         margin: 0 auto;
     }
 
     /* media query for main page */
-
+    h3 {
+        font-size: 16px;
+    }
 
     #heroImage {
         background-size: cover;
@@ -386,10 +381,6 @@ footer a :hover {
         margin: 1% 1% 1% 1%;
     }
 
-    #belowDescTitle h2 {
-        clear: both;
-    }
-
     .events {
         font-size: 7px;
     }
@@ -403,20 +394,14 @@ footer a :hover {
     /* menu media query, in progress */
 
     #menuMain {
-        width: 90%;
-        margin: 1%;
+        width: 80%;
     }
 
     #menuBottom p {
         display: none;
     }
 
-    #menuRight{
-        position: absolute;
-        float: right;
-    }
-
-    #menuLeft{
+    #menuLeft {
         display: inline-block;
     }
 
@@ -436,12 +421,12 @@ footer a :hover {
         display: inline-table;
     }
 
-    #logo {
-        float: right;
-    }
-
     #heroImage {
         height: 40vh;
+    }
+
+    #middle h2 {
+        width: 100%;
     }
 
     .events h3 {
@@ -449,11 +434,10 @@ footer a :hover {
     }
 
     .events p {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     /* reservation working*/
-
     #resForm {
         display: inline-block;
         background-position: center;
@@ -471,16 +455,44 @@ footer a :hover {
     #formEdit input {
         width: 70%;
     }
+
+    #menuMain {
+        width: 80%;
+    }
 }
 
 /* added to fix pricing line up */
 @media screen and (max-width: 500px) {
-    #menuMain {
-        width: 90%;
-        margin: 5%;
-    }
-    #menuLeft{
-        margin: 1%;
+
+    .events h3 {
+        font-size: 12px;
     }
 
+    .events p {
+        font-size: 12px;
+    }
+
+    #menuMain {
+        width: 90%;
+    }
+
+    #menuLeft {
+        margin: 0 auto;
+    }
+
+    #menuRight {
+        margin: 55px 10px;
+        float: right;
+    }
+}
+
+/* galaxy fold */
+@media screen and (max-width: 300px) {
+    .events p {
+        font-size: 10px;
+    }
+
+    .events h3 {
+        font-size: 12px;
+    }
 }
