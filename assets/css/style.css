@@ -231,6 +231,7 @@ menu title first.
     width: 100%;
 }
 
+
 #resForm h2 {
     color: white;
 }
@@ -253,7 +254,7 @@ label {
 }
 
 #resForm input {
-    width: 20%;
+    width: 30%;
     border-radius: 2%;
     padding: 1%;
 }
@@ -456,6 +457,7 @@ footer a :hover {
     #resForm {
         display: inline-block;
         background-position: center;
+        width: 60%;
     }
 
     #formEdit {
@@ -463,10 +465,11 @@ footer a :hover {
         column-count: 1;
         margin: 2px;
         padding: 1em 1em;
+        width: 90%;
     }
 
     #formEdit input {
-        width: 60%;
+        width: 70%;
     }
 }
 
