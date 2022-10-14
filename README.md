@@ -56,6 +56,15 @@ The website allows a user to understand the company and have a look at what even
 
 - No errors were returned when passing through the official W3C Validator
 
+### CSS
+
+- No errors were returned when passing through the official (Jigsaw) Validator
+
+### Accessibility
+
+- I have confirmed that colours and fonts used for the website are easy to read and accessible by running it through lighthouse in devtools
+
+![lighthouse results](../projectOne/assets/images/readLighthouse.jpg "lighthouse results")
 
 ## Bugs
 
@@ -67,6 +76,14 @@ The website allows a user to understand the company and have a look at what even
 6. Had issues where h3 elements were being targetted by preset styling, rectified by targetting h3 elements specifically in each media query
 7. links to images and spreadsheet not working after commitment to github pages, changed spreadsheet link and image links to suit change. For live website ../projectOne/assets/css/style.css is the syntax being used however when using Python server /assets/css/style.css is being used
 
+## Unfixed bugs
+
+- No unfixed bugs
+
+## Deployment
+
+- The site has been deployed using Github pages, in order to do this I went to the settings page of my projects repository, went to the pages tab on the left hand side of the screen, selected the Main branch and saved - this then provides a link for my website as followed - [Barcade](https://john33mcd.github.io/projectOne/index.html) 
+
 
 ## Authors
 
@@ -77,9 +94,9 @@ The website allows a user to understand the company and have a look at what even
 
 If you have any feedback, please reach out to me at jmcd-34@hotmail.com
 
-## Appendix
+## Media
 
-Any additional information goes here
+All images were taken from [Pexels](https://www.pexels.com/)
 
 
 
