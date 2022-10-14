@@ -50,6 +50,12 @@ The website allows a user to understand the company and have a look at what even
 - I tested all clickable links attached to the website, confirmed logo brought user back to home page on each page, confirmed each navigation element operated as required and also confirmed all footer elements lead to the expected social media landing page
 - I have tested the form element, I have confirmed that in order to make a reservation, all fields must be filled with the relevant content type. When the form is submitted the values get sent to a confirmation page.
 
+## Validation Testing
+
+### HTML
+
+- No errors were returned when passing through the official W3C Validator
+
 
 ## Bugs
 
