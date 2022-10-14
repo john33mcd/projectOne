@@ -22,7 +22,7 @@ access to the relevant social media websites.
 - All navigation elements match the color scheme of the website with each word clearly enhanced in white font with a black background
 - All navigation elements are clear and to the point, all for easy access to all elements of the website
 
-INCCLUDE AM I RESPONSIVE HERE
+![Sample images of website in different sizes, phone, laptop, desktop](../projectOne/assets/images/amIResponsive.jpg "Website in different sizes")
 
 ### Menu
 
