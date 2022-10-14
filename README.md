@@ -1,108 +1,85 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Barcade
 
-Welcome john33mcd,
+This website has been created for a Bar and Arcade hybrid. The initial page you land on gives
+a title, logo and welcome message followed by a description of what to expect from the business.
+the business offers a meeting point for people to meet up, socialize, have drinks and play retro gaming
+consoles.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The website allows a user to understand the company and have a look at what events are occuring in the coming months.
+The website also allows users to make a reservation, view the gallery and see the drinks menu. It also enables users
+access to the relevant social media websites.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+## Features
 
-A blue button should appear to click: _Make Public_,
+### Navigation
 
-Another blue button should appear to click: _Open Browser_.
+- Navigation bar allows users to easily manouvre the various pages of the website
+- Logo in top left hand side of the screen can be clicked at any point, on any of the pages on the website in order to return the user to the index page
+- All other navigation is in the top right hand corner and allows the user to go to the Menu, Reservation page and the Gallery
+- All navigation elements match the color scheme of the website with each word clearly enhanced in white font with a black background
+- All navigation elements are clear and to the point, all for easy access to all elements of the website
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+INCCLUDE AM I RESPONSIVE HERE
 
-A blue button should appear to click: _Make Public_,
+### Menu
 
-Another blue button should appear to click: _Open Browser_.
+- The menu style is consistent with the index page, provides the user with a menu outlining options and prices
+- The menu is purposely simple, there are 6 options so the user can quickly understand what is available, the font is consistent, white has been used with a parchment style background
+- All information is clear and concise
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Reservation
 
-To log into the Heroku toolbelt CLI:
+- Reservation page follows same theme as all other elements, has a black background, white font with the form enhanced by implementing a background image of a controller
+- The form is simple with no superfluous additions, First name, Last name, reservation date and party size is all that is requested to make a booking
+- Black button with white font is used to remain consistent with styling choice throughout the website
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Gallery
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- Gallery provides a page to show clients enjoying the arcade and to show off what the premises looks like and what is on offer, this will assist users to decide if this is the destination for what they are looking for
 
-------
 
-## Release History
+## Testing
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- I cascaded the website link to family members and colleagues to test on different devices, used feedback to make relevant changes, mainly media query based fixes on the back of feedback
+- I utilised  development tools in order to test the responsiveness of the site, I tested and confirmed each page operates as required for standard screen sizes available
+- I tested all clickable links attached to the website, confirmed logo brought user back to home page on each page, confirmed each navigation element operated as required and also confirmed all footer elements lead to the expected social media landing page
+- I have tested the form element, I have confirmed that in order to make a reservation, all fields must be filled with the relevant content type. When the form is submitted the values get sent to a confirmation page.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+## Bugs
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+1. Stylesheet was not connecting during early development when using <link rel="stylesheet" href="../ProjectOne/assets/css/style.css">, changed to various types of pathway. Used /assets/css/style.css and this fixed the issue.
+2. Added code from stack overflow to set HTML and body to 0 to remove pre set white space.
+3. Could not manage to center text for header on gallery page, referred to various forums, used clear:both function to achieve intended result.
+4. Was having issues levelling gallery photos during development, gallery sizing not working, used min height and max height to level out pictures.
+5. Had an issue where elements that were using the 'display: inline-block' element were not aligning properly, used info from stack overflow to rectify this issue with 'vertical-align: top'. This was the belowDesc section of the website.
+6. Had issues where h3 elements were being targetted by preset styling, rectified by targetting h3 elements specifically in each media query
+7. links to images and spreadsheet not working after commitment to site, changed spreadsheet link and image links to suit change. For live website ../projectOne/assets/css/style.css is the syntax being used however when using Python server /assets/css/style.css is being used
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## Authors
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- https://github.com/john33mcd
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Screenshots
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+![App Screenshot]
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Feedback
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+If you have any feedback, please reach out to me at jmcd-34@hotmail.com
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Appendix
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Any additional information goes here
 
-------
 
-## FAQ about the uptime script
 
-**Why have you added this script?**
+# Credits
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+- Utilised readme.so in order to develop read me file, https://readme.so/
