@@ -7,8 +7,6 @@ The website allows a user to understand the company and have a look at what even
 
 <img src="assets/images/amIResponsive.jpg">
 
-
-
 ## Features
 
 ### Navigation
@@ -19,7 +17,7 @@ The website allows a user to understand the company and have a look at what even
 - All navigation elements match the color scheme of the website with each word clearly enhanced in white font with a black background
 - All navigation elements are clear and to the point, made for easy access to all elements of the website
 
-![Sample images of website in different sizes, phone, laptop, desktop](../projectOne/assets/images/readHeader.jpg "Website in different sizes")
+<img src="assets/images/readHeader.jpg">
 
 ### Menu
 
@@ -27,7 +25,7 @@ The website allows a user to understand the company and have a look at what even
 - The menu is purposely simple, there are 6 options so the user can quickly understand what is available, the font is consistent, white has been used with a parchment style background
 - All information is clear and concise
 
-![picture of the drinks menu](../projectOne/assets/images/readMenu.jpg "drinks menu, guinness, corona, Heineken, 6 euro")
+<img src="assets/images/readMenu.jpg">
 
 ### Reservation
 
@@ -35,14 +33,13 @@ The website allows a user to understand the company and have a look at what even
 - The form is simple with no superfluous additions, First name, Last name, reservation date and party size is all that is requested to make a booking
 - Black button with white font is used to remain consistent with styling choice throughout the website
 
-![image showcasing reservation aspect of the website](../projectOne/assets/images/readRes.jpg "Reservation form, first name, last name, party size and date")
+<img src="assets/images/readRes.jpg">
 
 ### Gallery
 
 - Gallery provides a page to show clients enjoying the arcade and to show off what the premises looks like and what is on offer, this will assist users in making the decision if the business meets what they would like from their outing
 
-![image showing the top of the gallery aspect of the website](../projectOne/assets/images/readGallery.jpg "gallery showing customers enjoying games and drinks")
-
+<img src="assets/images/readGallery.jpg">
 
 ## Testing
 
@@ -66,7 +63,7 @@ The website allows a user to understand the company and have a look at what even
 
 - I have confirmed that colours and fonts used for the website are easy to read and accessible by running it through lighthouse in devtools
 
-![lighthouse results](../projectOne/assets/images/readLighthouse.jpg "lighthouse results")
+<img src="assets/images/readLighthouse.jpg">
 
 ## Bugs
 
