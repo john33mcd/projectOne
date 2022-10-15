@@ -87,7 +87,7 @@ The website allows a user to understand the company and have a look at what even
 
 ## Authors
 
-- https://github.com/john33mcd
+https://github.com/john33mcd
 
 
 ## Feedback
@@ -103,3 +103,7 @@ All images were taken from [Pexels](https://www.pexels.com/)
 # Credits
 
 - Utilised readme.so in order to develop read me file, https://readme.so/
+- Regularly referred to W3 Schools to find out how to structure and create certain elements such as a horizontal nav bar
+- [https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_social_media_buttons] - used following to add icons for socials
+- Referred to Code Institutes Love Running sample project for guidance and structure, used this project as a guideline as to how to implement Masonry style gallery page
+- Used youtube videos to better understand CSS, mainly 'Kevin Powell'
