@@ -5,7 +5,9 @@ consoles.
 
 The website allows a user to understand the company and have a look at what events are occuring in the coming months. The website also allows users to make a reservation, view the gallery and see the drinks menu. It also enables users access to the relevant social media websites.
 
-![Sample images of website in different sizes, phone, laptop, desktop](../projectOne/assets/images/amIResponsive.jpg "Website in different sizes")
+<img src="assets/images/amIResponsive.jpg">
+
+
 
 ## Features
 
